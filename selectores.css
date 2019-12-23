@@ -1,0 +1,14 @@
+ * {
+    /* propiedades_css */
+    border: red solid 5px;
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    /* propiedades_css */
+    font-size: 20px;
+    color: rgb(0, 60, 255);
+}
+
