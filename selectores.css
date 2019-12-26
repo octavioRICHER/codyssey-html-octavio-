@@ -1,6 +1,6 @@
- * {
+* {
     /* propiedades_css */
-    border: red solid 5px;
+    border: rgb(6, 185, 0) solid 5px;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,39 @@
 p {
     /* propiedades_css */
     font-size: 20px;
-    color: rgb(0, 60, 255);
+    color: rgb(0, 90, 23);
+    font-family: 'Lobster', cursive; border: double;
 }
 
+h2 {
+    color: rgb(0, 81, 255);
+    border: double ;
+  }
+
+h3 {
+    color: rgb(11, 141, 22); font-family: 'Nunito Sans', sans-serif ; border: double ;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif; 
+}
+
+p span{ 
+    color: rgb(170, 17, 17);
+}
+
+.destacado{
+    color: brown;font-size: 30px;border: ridge; 
+}
+
+#resaltado{
+    color: coral; border-right: ridge; border-color: darkblue; font-family: sans-serif;
+}
+
+#mami{
+    color: darkkhaki;
+}
+
+#chapu{
+    color: darksalmon; font-family: Verdana, Geneva, Tahoma, sans-serif; border: ridge;
+}
