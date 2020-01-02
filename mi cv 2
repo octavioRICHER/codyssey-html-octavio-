@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MI CV</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">           
+        <!-- archivos locales -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+
+ 
+    <nav>
+        <div class="nav-wrapper">
+          <img src="img/LOGO 2.0.png" alt="" class="brand-logo center mi_logo">
+          <a href="#" data-target="slide-out" class="button-collapse show-on-large sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+       
+      <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+          <div class="background">
+            <!-- imagen de fondo -->
+            <img src="img/fondo.jpg">
+          </div>
+
+          <a href="#user"><img class="circle" src="img/perfil.jpg"></a>
+          <a href="#name"><span class="white-text name">Octavio Rivera </span></a>
+          <a href="#email"><span class="white-text email">octavioriverach@gmail.com</span></a>
+        </div></li>
+        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+      </ul>
+
+  <main>
+      <!-- imagen parallax 1 -->
+      <div class="parallax-container">
+          <div class="container elementos_centrados">
+            <h1 class="center nombre">Octavio Rivera CHávez</h1>
+            <img class="imagen_perfil" src="img/perfil.jpg" alt="">
+          </div>
+          <div class="parallax parallax_custom_color"><img class="imagen_parallax" src="img/paralax 1.jpg"></div>
+      </div>
+        <!-- fin de imagen parallax 1 -->
+     
+     
+     <!-- inicio seccion conoceme -->
+          <div class="container" id="conoceme">
+          <h2 class="center">Conóceme</h2>
+
+              <div class="row">
+                  <div class="col m6">
+                      <p>Hola, soy Octavion Rivera, actualmente vivo en Cuernavaca en el estado de Morelos, Mexico. Tengo 15 años y una de mis principales
+                      paciones es la musica electronica, la simple sensacion de poder expresar mis sentimientoas y mi emociones mediante la usica es la mejor parte de todo mi dia. Desde que era pequeño vivo solo con mi mamá. </p>
+                      <p>Cuando tenia 6 años entre a estudiar en la primaria URUEETA CARRIYO donde solo estudie hata 4 alo, despues me cambie a la ESCUELA PRIMARIA  20 DE NOVIEMBRE donde termine mis estudio basico. Seguido a eso, entre a estyudiar en la escuela SECUNDARIA #45. Actualmente estoy estudiando el primer semestre de preparatoria en la preparatoria tecnica #1.   </p>
+                      <p>Aparte de pasar mis tiempos libres gravando musica, me gusta mucho aser dibujos tipo GRAFITY, los cuales suelo utilizar para portada de mis albums. Mi comida favorita es el chile relleno y laa hamburgesas. como amistades, suelo estar mas serca de mujeres q de hombres, en mis amistades soy muy fiel y nunca e traicionado a algun amigo. En mi futuro, uno de mis sueños es poder llegar a ser un  DJ profecional o un graninformatico y programador.     </p>
+                  </div>
+                  <div class="col m6">
+                      <img src="img/octavio.jpg" alt="" class="imagen_conoceme materialboxed">
+                  </div>
+              </div>
+
+
+          </div>
+     <!-- fin secion conoceme -->
+
+    <!-- Inicio seccion de super heroes -->
+    <div class="parallax-container">
+      <div class="parallax parallax_custom_color">
+          <img class="imagen_parallax" src="img/yo-antes-de-ti.jpeg" alt="pelicula  favorita">
+      </div>
+    </div>
+
+    <div class="container" id="superheroes">
+      <h2 class="center">Mi pelicula favorita</h2>
+      <div class="row">
+        <div class="col m6">
+          <img src="img/9781941999875.jpg" alt="" class="imagen_pelicula">
+        </div>
+        <div class="col m6">
+          <p>Hola, soy Octavion Rivera, actualmente vivo en Cuernavaca en el estado de Morelos, Mexico. Tengo 15 años y una de mis principales
+            paciones es la musica electronica, la simple sensacion de poder expresar mis sentimientoas y mi emociones mediante la usica es la mejor parte de todo mi dia. Desde que era pequeño vivo solo con mi mamá. </p>
+          <p>Cuando tenia 6 años entre a estudiar en la primaria URUEETA CARRIYO donde solo estudie hata 4 alo, despues me cambie a la ESCUELA PRIMARIA  20 DE NOVIEMBRE donde termine mis estudio basico. Seguido a eso, entre a estyudiar en la escuela SECUNDARIA #45. Actualmente estoy estudiando el primer semestre de preparatoria en la preparatoria tecnica #1.   </p>
+        </div>
+      </div>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=y-tS4DcM-Ug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>   
+      </div>
+    </div>  
+  <!-- fin super heroes-->
+
+  <!-- seccion musica -->
+  <div class="parallax-container">
+    <div class="parallax parallax_custom_color">
+        <img class="imagen_parallax" src="img/tomar-conciencia-musica-823x400.jpg" alt="musica favorita">
+    </div>
+  </div>
+
+  <div class="container" id="musica_favorita">
+    <h2 class="center">Mi musica favorita</h2>
+      <p class="center">Aqui les dejo algunos de mis albums favoritos de DJ MARTIN GARRIX y uno TWENTY ONE PILOTS</p>       
+    
+    <div class="carousel">
+      <a class="carousel-item" href="#one!"><img src="https://img.discogs.com/KI-c7iKwJWHZ8IvzsE8PVZCfdso=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5722949-1400922088-8074.jpeg.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkyIiOKFSmAPU-qXb-XZaPT3t1EKZR5TmPPPt5p5NBN_ly20uw&s"></a>
+      <a class="carousel-item" href="#three!"><img src="https://direct.rhapsody.com/imageserver/images/alb.139008058/500x500.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="https://m.media-amazon.com/images/I/71oOaaawaTL._SS500_.jpg"></a>
+      <a class="carousel-item" href="#five!"><img src="https://lastfm.freetls.fastly.net/i/u/770x0/c14d792a17e8c26519b45863cb20ee98.jpg"></a>
+    </div>
+    <P class="center">En lo personal, mi genero favorito de musica es la electronica y el rap en ingles, y lo q es DJ MARTIN y TWENTY ONE POLOTS son mis artistas favoritos </P>
+  </div>
+  <!-- fin -->
+
+
+ <!--seccion educacion -->
+
+ <div class="parallax-container">
+  <div class="parallax parallax_custom_color">
+      <img class="imagen_parallax" src="img/bbva-educacion-e1464704439593-1024x424.jpg" alt="educacion">
+  </div>
+ </div>
+
+ <h2 class="center">Educación</h2>
+  <div class="row">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="tab col s3"><a href="#test1">primaria</a></li>
+        <li class="tab col s3"><a class="active" href="#test2">SECUNDARIA</a></li>
+        <li class="tab col s3 disabled"><a href="#test3">preparatoria</a></li>
+      </ul>
+    </div>
+    <div id="test1" class="col s12">primaria 20 de</div>
+    <div id="test2" class="col s12">Test 2</div>
+    <div id="test3" class="col s12">Test 3</div>
+    <div id="test4" class="col s12">Test 4</div>
+  </div>
+
+ <!--fin seccion educacion  -->
+
+
+  <!-- inicio deporte -->
+  <div class="parallax-container">
+    <div class="parallax parallax_custom_color">
+        <img class="imagen_parallax" src="img/estadio-campo-futbol-bbva-1024x577.jpg" alt="deporte favorito">
+    </div>
+  </div>
+
+
+  <div class="container" id="musica_favorita">
+    <h2 class="center">Deporte favorito</h2>
+     <div class="col m6">
+       <p class="justify">Deporte que se practica entre dos equipos de once jugadores que tratan de introducir un balón en la portería del contrario impulsándolo con los pies, la cabeza o cualquier parte del cuerpo excepto las manos y los brazos; en cada equipo hay un portero, que puede tocar el balón con las manos, aunque solamente dentro del área; vence el equipo que logra más goles durante los 90 minutos que dura el encuentro.</p>       
+     </div>
+    <div class="cil m6">
+      <img class="imagen_pelicula" src="img/descarga.jpg" alt="imagen descarga ">
+    </div>
+  </div>
+
+
+  <!-- fin deporte -->
+
+
+ </main>
+      
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2019 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+            
+      
+
+
+    <script>
+      $(document).ready(function(){
+          $('.sidenav').sidenav();
+          $('.parallax').parallax();
+          $('.materialboxed').materialbox();
+          $('.carousel').carousel();
+          $('.tabs').tabs();
+      });
+
+    </script>
+</body>
+</html>
